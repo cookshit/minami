@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="28dp"
+    android:orientation="vertical"
+    android:background="@drawable/load"
+    tools:context=".signupActivity">
+
+    <TextView
+        android:id="@+id/signup_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎注册惠忆单词"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/signup_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/signup_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/signup_et_passwordagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint ="再次输入密码"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/signup_btn_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="确认注册"
+        />
+
+</LinearLayout>

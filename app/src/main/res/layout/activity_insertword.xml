@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".InsertWordActivity">
+
+
+
+            <EditText
+                android:id="@+id/et_enter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入单词"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/et_enter_zhongwenhanyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入单词含义"
+                android:padding="15dp"
+                />
+
+            <Button
+                android:id="@+id/btn_enter_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:padding="15dp"
+                />
+
+            <Button
+                android:id="@+id/btn_enter_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="查看已录入单词"
+                android:padding="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_enter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                />
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+
+
+</LinearLayout>

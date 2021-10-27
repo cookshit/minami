@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/night"
+    tools:context=".InterfaceActivity">
+
+
+    <TextView
+        android:id="@+id/tv_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_learn_number"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_learned_number"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/func_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="开始学单词"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/func_self_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="词汇量自测"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/func_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="录入单词"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/func_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="更改学习计划"
+        android:textSize="30sp"
+        />
+</LinearLayout>
+
+

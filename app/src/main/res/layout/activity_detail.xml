@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".WordDetailActivity">
+
+    <TextView
+        android:id="@+id/detail_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/detail_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/detail_alter_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改中文"
+        />
+
+
+    <Button
+        android:id="@+id/detail_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        />
+</LinearLayout>

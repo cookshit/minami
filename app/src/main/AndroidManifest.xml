@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minami">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="惠忆单词"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Minami">
+        <activity android:name=".WordDetailActivity"></activity>
+        <activity android:name=".PlanActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ReciteActivity" />
+        <activity android:name=".LearnWordActivity" />
+        <activity android:name=".InsertWordActivity" />
+        <activity android:name=".signupActivity" />
+        <activity android:name=".InterfaceActivity" />
+        <activity android:name=".MainActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- for mta statistics, not necessary-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
